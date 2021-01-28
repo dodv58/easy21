@@ -39,7 +39,7 @@ def update_policy(s):
 episode = 0
 results = 0
 
-while episode < 1000000:
+while episode < 2000000:
     current_state = env.start_game()
     current_action = get_action(current_state)
     is_terminated = False
